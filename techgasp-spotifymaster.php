@@ -2,7 +2,7 @@
 /**
 Plugin Name: Spotify Master
 Plugin URI: http://wordpress.techgasp.com/spotify-master/
-Version: 2.0
+Version: 2.1
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: spotify-master
@@ -32,10 +32,14 @@ define('TECHGASP_SPOTIFYMASTER_ID', 'spotify-master-options');
 // DEFINE PLUGIN NICK
 define('TECHGASP_SPOTIFYMASTER_NICK', 'Spotify Master');
 
+// HOOK WIDGET
 require_once('techgasp-spotifymaster-widget.php');
 
-    class techgasp_spotifymaster
-    {
+// HOOK INVITATION
+
+
+	class techgasp_spotifymaster
+	{
 		/** function/method
 		* Usage: return absolute file path
 		* Arg(1): string
@@ -52,7 +56,7 @@ require_once('techgasp-spotifymaster-widget.php');
 		*/
 		public static function techgasp_spotifymaster_register()
 		{
-			register_setting(TECHGASP_SPOTIFYMASTER_ID.'_options', 'tsm_quote');
+			register_setting(TECHGASP_SPOTIFYMASTER_ID.'_options');
 		}
 		/** function/method
 		* Usage: hooking (registering) the plugin menu
@@ -95,11 +99,6 @@ require_once('techgasp-spotifymaster-widget.php');
 		* Arg(1): string
 		* Return: string
 		*/
-		public static function content_with_quote($content)
-		{
-			$quote = '<p><blockquote>' . get_option('tsm_quote') . '</blockquote></p>';
-			return $content . $quote;
-		}
 		
 		// Add settings link on plugin page
 		public function techgasp_spotifymaster_link($links, $file) {
