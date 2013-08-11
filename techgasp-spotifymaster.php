@@ -56,7 +56,7 @@ require_once('techgasp-spotifymaster-widget.php');
 		*/
 		public static function techgasp_spotifymaster_register()
 		{
-			register_setting(TECHGASP_SPOTIFYMASTER_ID.'_options');
+			register_setting(TECHGASP_SPOTIFYMASTER_ID.'_options', 'tsm_quote');
 		}
 		/** function/method
 		* Usage: hooking (registering) the plugin menu
