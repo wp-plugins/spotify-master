@@ -2,7 +2,7 @@
 /**
 Plugin Name: Spotify Master
 Plugin URI: http://wordpress.techgasp.com/spotify-master/
-Version: 2.2
+Version: 2.3
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: spotify-master
@@ -56,7 +56,7 @@ require_once('techgasp-spotifymaster-widget.php');
 		*/
 		public static function techgasp_spotifymaster_register()
 		{
-			register_setting(TECHGASP_SPOTIFYMASTER_ID.'_options', 'tsm_quote'));
+			register_setting(TECHGASP_SPOTIFYMASTER_ID.'_options', 'tsm_quote');
 		}
 		/** function/method
 		* Usage: hooking (registering) the plugin menu
