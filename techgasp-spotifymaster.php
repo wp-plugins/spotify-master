@@ -2,7 +2,7 @@
 /**
 Plugin Name: Spotify Master
 Plugin URI: http://wordpress.techgasp.com/spotify-master/
-Version: 2.3
+Version: 2.4
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: spotify-master
@@ -106,7 +106,7 @@ require_once('techgasp-spotifymaster-widget.php');
 		}
 		
 		// Add settings link on plugin page
-		public function techgasp_spotifymaster_link($links, $file) {
+		public static function techgasp_spotifymaster_link($links, $file) {
 		static $this_plugin;
 		if (!$this_plugin) $this_plugin = plugin_basename(__FILE__);
 		if ($file == $this_plugin){
