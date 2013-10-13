@@ -35,7 +35,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Shortcode Framework v2. Publish plugin inside pages and posts
 * [Advanced Version Link](http://wordpress.techgasp.com/spotify-master/)
 
-** ONLINE DEMO **
+**ONLINE DEMO**
 
 * Right of the page, sidebar widget
 * Inside the post. With shortcode framework v2
@@ -54,7 +54,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 1. Use the Wordpress Installer, Updater
 2. Activate in the "Plugins" admin panel.
 3. Visit the "Widget Page | Spotify Master" to configure the settings and your template widget position.
-[Spotify Master Documentation](http://wordpress.techgasp.com/spotify-master-documentation)
+4. [Spotify Master Documentation](http://wordpress.techgasp.com/spotify-master-documentation)
 
 
 == Frequently Asked Questions ==
