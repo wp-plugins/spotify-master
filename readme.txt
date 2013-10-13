@@ -3,7 +3,7 @@ Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, spotify, music, playlist, mp3, spotify playlist, spotify channel, music player
 Requires at least: 3.5
 Tested up to: 3.6
-Stable tag: 2.4
+Stable tag: 4.0
 License: GPLv2 or later
 
 Spotify Master allows you to display in your wordpress website musics, playlists and albums of the cool and "booming" music network Spotify.
@@ -74,6 +74,13 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 
 == Changelog ==
+
+= 4.0 =
+* Implementing New Shortcode Framework. Shortcode box will now be available when editing a page or a post
+* New Spotify Profile Button
+
+= 3.0 =
+* Implementing advanced updater
 
 = 2.4 =
 * Patching strict standards in WP_DEBUG mode
