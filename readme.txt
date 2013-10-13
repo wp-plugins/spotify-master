@@ -33,11 +33,11 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Display or hide Spotify Profile Button
 * Display or hide Spotify Player (Single Musics, Playlists, Albums)
 * Full control over player width and height
-* Shortcode Framework. Publish widget inside pages and posts
+* Shortcode Framework v2. Publish plugin inside pages and posts
 
 == Installation ==
 
-1. Upload everything into the "/wp-content/plugins/" directory of your WordPress site.
+1. Use the Wordpress Installer, Updater
 2. Activate in the "Plugins" admin panel.
 3. Visit the "Widget Page | Spotify Master" to configure the settings and your template widget position.
 
@@ -52,10 +52,8 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * [Advaced Version Link](http://wordpress.techgasp.com/spotify-master/)
 
 = Insert Widget in Pages or Posts =
-* ADVANCED Version constains the shortcode framework
-* Insert the code into the page or post. [spotifymaster id=x]
-* "x" stands for your sidebar number, ie sidebar-1, final code would be:
-* [spotifymaster id=sidebar-1]
+* ADVANCED Version constains the shortcode framework v2
+* Insert the shortcode into any page or post. [spotify-master]
 * [Advaced Version Link](http://wordpress.techgasp.com/spotify-master/)
 
 = Need More Help =
