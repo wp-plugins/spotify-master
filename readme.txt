@@ -43,7 +43,7 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 **More High Quality Plugins?**
 
-* For profissional wordpress websites
+* For professional wordpress websites
 * Tested for fast page load times and SEO
 * Errors and conflicts free. NO JAVASCRIPT or AJAX
 * [Click Here](http://wordpress.techgasp.com/buy-all-techgasp-wordpress-plugins/)
