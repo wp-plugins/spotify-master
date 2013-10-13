@@ -16,9 +16,10 @@ Spotify Master for Wordpress allows you to display in your template widget areas
 
 Works great inside your pages and posts with our shortcode framework. Read more below and check screenshots page.
 
+**spotify music for wordpress**
+
 IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
-**spotify music for wordpress**
 
 **LITE Version Contains:**
 
@@ -27,19 +28,33 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 
 **ADVANCED Version Contains:**
 
-[Advanced Version Link](http://wordpress.techgasp.com/spotify-master/)
-
 * Display or hide Widget Title
 * Display or hide Spotify Profile Button
 * Display or hide Spotify Player (Single Musics, Playlists, Albums)
 * Full control over player width and height
 * Shortcode Framework v2. Publish plugin inside pages and posts
+* [Advanced Version Link](http://wordpress.techgasp.com/spotify-master/)
+
+** ONLINE DEMO **
+
+* Right of the page, sidebar widget
+* Inside the post. With shortcode framework v2
+* [Demo Link](http://wordpress.techgasp.com/spotify-master/)
+
+**More High Quality Plugins?**
+
+* For profissional wordpress websites
+* Tested for fast page load times and SEO
+* Errors and conflicts free. NO JAVASCRIPT or AJAX
+* [Click Here](http://wordpress.techgasp.com/buy-all-techgasp-wordpress-plugins/)
+
 
 == Installation ==
 
 1. Use the Wordpress Installer, Updater
 2. Activate in the "Plugins" admin panel.
 3. Visit the "Widget Page | Spotify Master" to configure the settings and your template widget position.
+[Spotify Master Documentation](http://wordpress.techgasp.com/spotify-master-documentation)
 
 
 == Frequently Asked Questions ==
@@ -47,19 +62,24 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 = Issues with buttons display =
 * Please update to latest version. Up-to-date API's are available
 
-= Where the Player? =
-* ADVANCED Version contains: Display or hide Widget Title, Display or hide Spotify Profile Button, Display or hide Spotify Player, Shortcode Framework, publish widget inside pages and posts
-* [Advaced Version Link](http://wordpress.techgasp.com/spotify-master/)
+= Where is the Player? =
+* Advanced Version contains: Display or hide Widget Title, Display or hide Spotify Profile Button, Display or hide Spotify Player, Shortcode Framework v2, publish widget inside pages and posts
+* [Advanced Version Link](http://wordpress.techgasp.com/spotify-master/)
 
 = Insert Widget in Pages or Posts =
-* ADVANCED Version constains the shortcode framework v2
+* Advanced Version contains the shortcode framework v2
 * Insert the shortcode into any page or post. [spotify-master]
-* [Advaced Version Link](http://wordpress.techgasp.com/spotify-master/)
+* [Advanced Version Link](http://wordpress.techgasp.com/spotify-master/)
+
+= What's this Shortcode Framework v2 =
+* It's a framework developed by TechGasp and built upon wordpress marvellous resources
+* Allows users to quickly and easily display plugins or widgets inside their pages and posts
+* It's available in all TechGasp advanced version plugins. Lite versions plugins do not include shortcode framework v2
+* [About Shortcode Framework v2](http://wordpress.techgasp.com/new-wordpress-framework-from-techgasp/)
 
 = Need More Help =
-* [ABOUT DOCUMENTATION](http://wordpress.techgasp.com)
-* [ABOUT INSTALLATION](http://wordpress.techgasp.com)
-* [SUPPORT](http://wordpress.techgasp.com/support)
+* [Spotify Master Documentation](http://wordpress.techgasp.com/spotify-master-documentation)
+* [Support](http://wordpress.techgasp.com/support)
 
 
 == Screenshots ==
@@ -74,8 +94,8 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 == Changelog ==
 
 = 4.0 =
-* Implementing New Shortcode Framework. Shortcode box will now be available when editing a page or a post
-* New Spotify Profile Button
+* Implementing New Shortcode Framework v2. Shortcode box will now be available when editing a page or a post
+* Added new Spotify Profile Button
 
 = 3.0 =
 * Implementing advanced updater
