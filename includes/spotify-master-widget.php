@@ -89,7 +89,7 @@ class spotify_master_widget extends WP_Widget {
 		&nbsp;
 		<b>Spotify Master Website</b>
 		</p>
-		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Advanced">Advanced Version</a></p>
+		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="Spotify Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Advanced">Advanced Version</a></p>
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
 		<p>
 		<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
