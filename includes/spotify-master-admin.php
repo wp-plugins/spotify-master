@@ -61,6 +61,6 @@
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
 
 <h3><img src="<?php echo plugins_url('../images/techgasp-minilogo.png', __FILE__); ?>" style="width:40px; vertical-align:middle;" alt="' . esc_attr__( 'TechGasp Plugins') . '" /> Spotify Master Website</h3>
-<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Advanced Version">Advanced Version</a></p>
+<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="Spotify Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Advanced Version">Advanced Version</a></p>
 </form>
 </div>
