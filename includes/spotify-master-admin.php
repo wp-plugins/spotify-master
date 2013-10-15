@@ -46,6 +46,7 @@
 <form method="post" width='1'>
 <fieldset class="options">
 <legend><h3><img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; height:16px; vertical-align:middle;" /><?php _e('&nbsp;Advanced Version Updater:', 'spotify_master'); ?></h3></legend>
+<br>
 <div class="description">Only available in <b>Spotify Master Advanced Version</b></div>
 <p><a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Advanced Version">Advanced Version</a></p>
 </fieldset>

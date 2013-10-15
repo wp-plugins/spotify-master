@@ -81,8 +81,8 @@ class spotify_master_widget extends WP_Widget {
 	<p><b>Spotify Player Width:</b></p>
 	<div class="description">Only available in advanced version.</div>
 	<p><b>Spotify Player Height:</b></p>
-	<br>
 	<div class="description">Only available in advanced version.</div>
+	<br>
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
 		<p>
 		<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
