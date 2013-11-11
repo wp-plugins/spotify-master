@@ -30,8 +30,9 @@ class spotify_master_widget extends WP_Widget {
 		
 	//Display Spotify Profile Button
 		if ( $show_spotifybutton )
+		$url_loc = plugins_url();
 		echo '<br/>' .
-		'<a href="'.$spotifybutton_page.'" target="_blank"><img src="/wp-content/plugins/spotify-master/images/techgasp-spotify-button.png"></a>';
+		'<a href="'.$spotifybutton_page.'" target="_blank"><img src="'.$url_loc.'/spotify-master/images/techgasp-spotify-button.png"></a>';
 	echo $after_widget;
 	}
 	//Update the widget
