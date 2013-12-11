@@ -2,7 +2,7 @@
 /**
 Plugin Name: Spotify Master
 Plugin URI: http://wordpress.techgasp.com/spotify-master/
-Version: 4.0.1
+Version: 4.0.2
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: spotify-master
