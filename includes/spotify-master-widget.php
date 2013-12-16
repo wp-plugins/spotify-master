@@ -54,6 +54,7 @@ class spotify_master_widget extends WP_Widget {
 	$defaults = array( 'name' => __('Spotify Master', 'spotify_master'), 'title' => true, 'down_link_spotify' => false, 'show_spotifybutton' => false, 'spotifybutton_page' => false );
 	$instance = wp_parse_args( (array) $instance, $defaults );
 	?>
+		<br>
 		<p><b>Check the buttons to be displayed:</b></p>
 	<p>
 	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; height:16px; vertical-align:middle;" />
@@ -85,19 +86,28 @@ class spotify_master_widget extends WP_Widget {
 	<div class="description">Only available in advanced version.</div>
 	<br>
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
+	<p>
+	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	&nbsp;
+	<b>Shortcode Framework</b>
+	</p>
+	<div class="description">The shortcode framework allows you to insert Spotify Master inside Pages & Posts without the need of extra plugins or gimmicks. Fast page load times and top SEO. Only available in advanced version.</div>
+	<br>
+<div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
 		<p>
 		<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
 		&nbsp;
 		<b>Spotify Master Website</b>
 		</p>
-		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="Spotify Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Advanced">Advanced Version</a></p>
+		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="Spotify Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Advanced">Adv. Version</a></p>
 <div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
-		<p>
-		<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
-		&nbsp;
-		<b>Advanced Version Updater:</b>
-		</p>
-		<div class="description">The advanced version updater allows to automatically update your advanced plugin. Only available in advanced version.</div>
+	<p>
+	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	&nbsp;
+	<b>Advanced Version Updater:</b>
+	</p>
+	<div class="description">The advanced version updater allows to automatically update your advanced plugin. Only available in advanced version.</div>
+	<br>
 	<?php
 	}
  }
