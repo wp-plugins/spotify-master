@@ -17,6 +17,7 @@ class spotify_master_widget extends WP_Widget {
 		extract( $args );
 		//Our variables from the widget settings.
 		$name = "Spotify Master";
+		$url_loc = plugins_url();
 		$title = isset( $instance['title'] ) ? $instance['title'] :false;
 		$spotifyspacer ="'";
 		$show_spotifybutton = isset( $instance['show_spotifybutton'] ) ? $instance['show_spotifybutton'] :false;
@@ -29,10 +30,12 @@ class spotify_master_widget extends WP_Widget {
 	//Display Spotify Player
 		
 	//Display Spotify Profile Button
-		if ( $show_spotifybutton )
-		$url_loc = plugins_url();
+		if ( $show_spotifybutton ){
 		echo '<br/>' .
 		'<a href="'.$spotifybutton_page.'" target="_blank"><img src="'.$url_loc.'/spotify-master/images/techgasp-spotify-button.png"></a>';
+		}
+		else{
+		}
 	echo $after_widget;
 	}
 	//Update the widget
