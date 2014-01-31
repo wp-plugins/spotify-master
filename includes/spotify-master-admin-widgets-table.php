@@ -31,11 +31,11 @@ class spotify_master_admin_widgets_table extends WP_List_Table {
 		</tr>
 		<tr>
 			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-spotifymaster-admin-widget-basic.png', __FILE__); ?>" alt="Spotify Master" align="left" width="300px" height="135px" style="padding:5px;"/></td>
-			<td class="column-columnname"style="vertical-align:middle"><h3>Basic Player Widget</h3><p>The Basic spotify Player Widget was specially designed for fast loading times and is perfect to display a single music or a minimized player. All player options are on automatic settings so it's easy and fast to deploy by any wordpress administrator.</p><p>This widget is fully <b>Mobile Responsive</b>, check the Add-ons Page.</p></td>
+			<td class="column-columnname"style="vertical-align:middle"><h3>Basic Player Widget</h3><p>The Basic spotify Player Widget was specially designed for fast loading times and is perfect to display a single music or a minimized player. All player options are on automatic settings so it's easy and fast to deploy by any wordpress administrator.</p><p>This widget is fully <b>Mobile Responsive</b>. Check the Add-ons page.</p></td>
 		</tr>
 		<tr class="alternate">
 			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-spotifymaster-admin-widget-advanced.png', __FILE__); ?>" alt="Spotify Master" align="left" width="300px" height="135px" style="padding:5px;"/></td>
-			<td class="column-columnname"style="vertical-align:middle"><h3>Advanced Player Widget</h3><p>The "top of the line" Advanced Spotify Player Widget was specially designed to display Spotify Musics, Playlists Albums or Artists and to you grant access to the Spotify Player Size and includes the Spotify Profile if you decide to display it. <p>Extremely easy to use, this widget is fully <b>Mobile Responsive</b>, check the Add-ons Page.</p></td
+			<td class="column-columnname"style="vertical-align:middle"><h3>Advanced Player Widget</h3><p>The "top of the line" Advanced Spotify Player Widget was specially designed to display Spotify Musics, Playlists, Albums or Artists and to you grant access to the Spotify Player Size and includes the Spotify Profile if you decide to display it. <p>Extremely easy to use, this widget is fully <b>Mobile Responsive</b>. Check the Add-ons page.</p></td
 		</tr>
 	</tbody>
 </table>
