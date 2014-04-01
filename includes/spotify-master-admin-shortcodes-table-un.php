@@ -35,17 +35,17 @@ class spotify_master_admin_shortcodes_table_un extends WP_List_Table {
 		<tr class="alternate">
 			<th class="check-column" scope="row"></th>
 			<td class="column-columnname" width="200">
-<p>Check the Add-ons Page</p>
+<p>Check Add-ons page.</p>
 			</td>
 			<td class="column-columnname" width="200"></td>
 			<td class="column-columnname"></td>
 		</tr>
 	</tbody>
 </table>
-<p class="submit"><input class='button-primary' type='submit' name='update' value='<?php _e("Save Shortcode UN", 'spam_master'); ?>' id='submitbutton' /></p>
+<p class="submit"><input class='button-primary' type='submit' name='update' value='<?php _e("Save Shortcode UN", 'spotify_master'); ?>' id='submitbutton' /></p>
 </fieldset>
 </form>
 <?php
-}
+	}
 //CLASS ENDS
 }

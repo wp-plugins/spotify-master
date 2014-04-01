@@ -27,7 +27,7 @@ class spotify_master_widget_buttons extends WP_Widget {
 	// Display the widget title
 		if ( $spotify_title ){
 			if (empty ($spotify_title_new)){
-			$spotify_title_new = "spotify Master";
+			$spotify_title_new = "Spotify Master";
 			}
 		echo $before_title . $spotify_title_new . $after_title;
 		}
@@ -84,9 +84,9 @@ class spotify_master_widget_buttons extends WP_Widget {
 		<p>
 		<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
 		&nbsp;
-		<b>Spotify Master Website</b>
+		<b><?php echo get_option('spotify_master_name'); ?> Website</b>
 		</p>
-		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Spotify Master Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="Spotify Master Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.org/plugins/spotify-master/" target="_blank" title="Spotify Master Wordpress">RATE US *****</a></p>
+		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="<?php echo get_option('spotify_master_name'); ?> Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="<?php echo get_option('spotify_master_name'); ?> Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Visit Website">Get Add-ons</a></p>
 	<?php
 	}
  }

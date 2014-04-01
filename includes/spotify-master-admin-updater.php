@@ -45,7 +45,6 @@ $wp_list_table->display();
 ?>
 </fieldset>
 </form>
-
 </br>
 <h2>IMPORTANT: Makes no use of Javascript or Ajax to keep your website fast and conflicts free</h2>
 
@@ -56,9 +55,9 @@ $wp_list_table->display();
 <p>
 <a class="button-secondary" href="http://wordpress.techgasp.com" target="_blank" title="Visit Website">More TechGasp Plugins</a>
 <a class="button-secondary" href="http://wordpress.techgasp.com/support/" target="_blank" title="Facebook Page">TechGasp Support</a>
-<a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Visit Website">Spotify Master Info</a>
-<a class="button-primary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="Visit Website">Spotify Master Documentation</a>
-<a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Visit Website">Get Add-ons!</a>
+<a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Visit Website"><?php echo get_option('spotify_master_name'); ?> Info</a>
+<a class="button-primary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="Visit Website"><?php echo get_option('spotify_master_name'); ?> Documentation</a>
+<a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Visit Website">Get Add-ons</a>
 </p>
 
 <?php

@@ -2,7 +2,7 @@
 /**
 Plugin Name: Spotify Master
 Plugin URI: http://wordpress.techgasp.com/spotify-master/
-Version: 4.3
+Version: 4.3.5
 Author: TechGasp
 Author URI: http://wordpress.techgasp.com
 Text Domain: spotify-master
@@ -28,9 +28,9 @@ if(!class_exists('spotify_master')) :
 ///////DEFINE ID//////
 define('SPOTIFY_MASTER_ID', 'spotify-master');
 ///////DEFINE VERSION///////
-define( 'spotify_master_VERSION', '4.3' );
+define( 'spotify_master_VERSION', '4.3.5' );
 global $spotify_master_version, $spotify_master_name;
-$spotify_master_version = "4.3"; //for other pages
+$spotify_master_version = "4.3.5"; //for other pages
 $spotify_master_name = "Spotify Master"; //pretty name
 if( is_multisite() ) {
 update_site_option( 'spotify_master_installed_version', $spotify_master_version );
