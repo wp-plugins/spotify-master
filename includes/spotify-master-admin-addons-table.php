@@ -30,13 +30,21 @@ class spotify_master_admin_addons_table extends WP_List_Table {
 		<tr class="alternate">
 			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-spotifymaster-admin-addons-widget-buttons.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="300px" height="139px" style="padding:5px;"/></td>
 			<td class="column-columnname"style="vertical-align:middle"><h3>Buttons Widget</h3><p>The perfect widget if you only want to display the Spotify Connect to Profile Button. A great way to connect people to your spotify profile or to display your cool music.</p><p>This widget works great when published under any of the widget players. Navigate to your wordpress widgets page and start using it.</p></td>
-
 			<td class="column-columnname" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-check-yes.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="200px" height="121px" style="padding:5px;"/></td>
+		</tr>
+		<tr>
+			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-spotifymaster-admin-addons-widget-dashboard.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="300px" height="139px" style="padding:5px;"/></td>
+			<td class="column-columnname"style="vertical-align:middle"><h3>Administrator Dashboard Widget</h3><p>Cool player widget to listen to your favourite Spotify musics while working on your Wordpress Administrator. Go to your Wordpress Dashboard page and start using it!!!</p></td>
+			<td class="column-columnname" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-check-no.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="200px" height="121px" style="padding:5px;"/></td>
+		</tr>
+		<tr class="alternate">
+			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-spotifymaster-admin-addons-widget-discography.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="300px" height="139px" style="padding:5px;"/></td>
+			<td class="column-columnname"style="vertical-align:middle"><h3>Spotify Discography Widget</h3><p>Fast loading widget to display and play artists discography. A great way to connect people to Spotify Profiles and Discographies.</p><p>Navigate to your wordpress widgets page and start using it.</p></td>
+			<td class="column-columnname" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-check-no.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="200px" height="121px" style="padding:5px;"/></td>
 		</tr>
 		<tr>
 			<td class="column-columnname" width="300" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-spotifymaster-admin-addons-widget-basic.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="300px" height="139px" style="padding:5px;"/></td>
 			<td class="column-columnname"style="vertical-align:middle"><h3>Basic Player Fast Loading Widget</h3><p>The Basic Spotify Player Widget was specially designed for fast loading times and is perfect to display a single music. All player options are on automatic settings so it's easy and fast to deploy by any wordpress administrator.</p><p>This widget is fully <b>Mobile Responsive</b>, navigate to your wordpress widgets page and start using it.</p></td>
-
 			<td class="column-columnname" style="vertical-align:middle"><img src="<?php echo plugins_url('../images/techgasp-check-no.png', __FILE__); ?>" alt="<?php echo get_option('spotify_master_name'); ?>" align="left" width="200px" height="121px" style="padding:5px;"/></td>
 		</tr>
 		<tr class="alternate">

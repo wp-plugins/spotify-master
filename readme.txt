@@ -2,8 +2,8 @@
 Contributors: Techgasp
 Tags: wordpress, plugin, widget, shortcode, techgasp, spotify, music, playlist, mp3, spotify playlist, spotify channel, music player
 Requires at least: 3.5
-Tested up to: 4.1
-Stable tag: 4.3.7
+Tested up to: 4.1.1
+Stable tag: 4.4.1.4
 License: GPLv2 or later
 
 Spotify Master allows you to display in your wordpress website musics, playlists and albums of the cool and "booming" music network Spotify.
@@ -36,6 +36,8 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 * Spotify Buttons Widget (Connect to Profile Button)
 * Spotify Basic Player Widget (Fast page load times, designed for Single Musics)
 * Spotify Advanced Player Widget (Single Musics, Playlists, Albums)
+* Spotify Discography Widget (Playable Artist Discography)
+* Spotify Dashboard Widget
 
 * TechGasp Shortcode Framework v3:
 * Universal Shortcode for all pages and posts, same Shortcode applies to all pages and posts. Option to Automatically add the shortcode to all pages and posts or manually add the pre-built shortcode individually per page or post. Option to automatically only show the shortcode in Posts and not Pages. Option to Automatically show the shortcode After the Title or After the Content.
@@ -98,9 +100,33 @@ IMPORTANT: Errors and conflicts free. NO JAVASCRIPT or AJAX
 3. Widget With Spotify Player (track) + Spotify Profile Button.
 4. Widget With Spotify Player (track in small widget position) + Spotify Profile Button.
 5. Widget inside pages and posts. Shortcode framework implementation. Spotify Player + Profile Button inside a page.
+6. Widget With Spotify Artist Discography.
+7. Administrator Dashboard Widget.
 
 
 == Changelog ==
+
+= 4.4.1.4 =
+* Getting all widget titles network ready
+
+= 4.4.1.3 =
+* Tweaking the Updater
+
+= 4.4.1.2 =
+* Adding Network Warnings and help texts
+* Adding Spotify Discography Widget
+
+= 4.4.1.1 =
+* Fixing uninstall, plugin deletion on wordpress network and multi-sites
+
+= 4.4.1.0 =
+* Fixing Shortcodes
+* Fixing Widgets
+* General clean-up and speed boost
+
+= 4.4.0 =
+* Wordpress multi-site or wordpress network ready
+* New screenshots and images
 
 = 4.3.7 =
 * New Spotify API

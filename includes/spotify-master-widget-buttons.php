@@ -36,12 +36,20 @@ class spotify_master_widget_buttons extends WP_Widget {
 	// Display the widget title
 		if ( $spotify_title ){
 			if (empty ($spotify_title_new)){
-			$spotify_title_new = "Spotify Master";
+			if(is_multisite()){
+			$spotify_title_new = get_site_option('spotify_master_name');
+			}
+			else{
+			$spotify_title_new = get_option('spotify_master_name');
 			}
 		echo $before_title . $spotify_title_new . $after_title;
 		}
 		else{
+		echo $before_title . $spotify_title_new . $after_title;
 		}
+	}
+	else{
+	}
 	//Display Spotify Profile Button
 		if ( $show_spotifybutton ){
 			if ( get_option('spotifybutton_size_choice') == "spotify_master_load_size_basic" ){
@@ -139,7 +147,7 @@ class spotify_master_widget_buttons extends WP_Widget {
 		&nbsp;
 		<b><?php echo get_option('spotify_master_name'); ?> Website</b>
 		</p>
-		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="<?php echo get_option('spotify_master_name'); ?> Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="<?php echo get_option('spotify_master_name'); ?> Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.org/plugins/spotify-master/" target="_blank" title="<?php echo get_option('spotify_master_name'); ?> Wordpress">RATE US *****</a></p>
+		<p><a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="<?php echo get_option('spotify_master_name'); ?> Info Page">Info Page</a> <a class="button-secondary" href="http://wordpress.techgasp.com/spotify-master-documentation/" target="_blank" title="<?php echo get_option('spotify_master_name'); ?> Documentation">Documentation</a> <a class="button-primary" href="http://wordpress.techgasp.com/spotify-master/" target="_blank" title="Get Add-ons">Get Add-ons</a></p>
 	<?php
 	}
  }
