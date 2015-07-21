@@ -101,7 +101,7 @@ class spotify_master_widget_buttons extends WP_Widget {
 		<br>
 		<p><b>Check the buttons to be displayed:</b></p>
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; height:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; height:16px; vertical-align:middle;" />
 	&nbsp;
 	<input type="checkbox" <?php checked( (bool) $instance['spotify_title'], true ); ?> id="<?php echo $this->get_field_id( 'spotify_title' ); ?>" name="<?php echo $this->get_field_name( 'spotify_title' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'spotify_title' ); ?>"><b><?php _e('Display Widget Title', 'spotify_master'); ?></b></label></br>
@@ -111,9 +111,9 @@ class spotify_master_widget_buttons extends WP_Widget {
 	<br>
 	<input id="<?php echo $this->get_field_id( 'spotify_title_new' ); ?>" name="<?php echo $this->get_field_name( 'spotify_title_new' ); ?>" value="<?php echo $instance['spotify_title_new']; ?>" style="width:auto;" />
 	</p>
-<div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
+<div style="background: url(<?php echo plugins_url('images/techgasp-hr.png', dirname(__FILE__)); ?>) repeat-x; height: 10px"></div>
 	<p>
-	<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+	<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; width:16px; vertical-align:middle;" />
 	&nbsp;
 	<input type="checkbox" <?php checked( (bool) $instance['show_spotifybutton'], true ); ?> id="<?php echo $this->get_field_id( 'show_spotifybutton' ); ?>" name="<?php echo $this->get_field_name( 'show_spotifybutton' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'show_spotifybutton' ); ?>"><b><?php _e('Spotify Profile Button', 'spotify_master'); ?></b></label><br>
@@ -141,9 +141,9 @@ class spotify_master_widget_buttons extends WP_Widget {
 	<input type="checkbox" <?php checked( (bool) $instance['spotifybutton_count'], true ); ?> id="<?php echo $this->get_field_id( 'spotifybutton_count' ); ?>" name="<?php echo $this->get_field_name( 'spotifybutton_count' ); ?>" />
 	<label for="<?php echo $this->get_field_id( 'spotifybutton_count' ); ?>"><b><?php _e('Activate Bubble Count', 'spotify_master'); ?></b></label><br>
 	</p>
-<div style="background: url(<?php echo plugins_url('../images/techgasp-hr.png', __FILE__); ?>) repeat-x; height: 10px"></div>
+<div style="background: url(<?php echo plugins_url('images/techgasp-hr.png', dirname(__FILE__)); ?>) repeat-x; height: 10px"></div>
 		<p>
-		<img src="<?php echo plugins_url('../images/techgasp-minilogo-16.png', __FILE__); ?>" style="float:left; width:16px; vertical-align:middle;" />
+		<img src="<?php echo plugins_url('images/techgasp-minilogo-16.png', dirname(__FILE__)); ?>" style="float:left; width:16px; vertical-align:middle;" />
 		&nbsp;
 		<b><?php echo get_option('spotify_master_name'); ?> Website</b>
 		</p>
