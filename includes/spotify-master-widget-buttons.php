@@ -10,7 +10,7 @@ class spotify_master_widget_buttons extends WP_Widget {
 	function spotify_master_widget_buttons() {
 	$widget_ops = array( 'classname' => 'Spotify Master Buttons', 'description' => __('Spotify Master Buttons Widget allows you to display the Spotify Profile Connect Button. ', 'Spotify Master Buttons') );
 	$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'spotify_master_widget_buttons' );
-	$this->WP_Widget( 'spotify_master_widget_buttons', __('Spotify Master Buttons', 'spotify_master'), $widget_ops, $control_ops );
+	parent::__construct( 'spotify_master_widget_buttons', __('Spotify Master Buttons', 'spotify_master'), $widget_ops, $control_ops );
 	}
 	
 	function widget( $args, $instance ) {
